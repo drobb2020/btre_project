@@ -8,6 +8,7 @@
     "btre",
     "btredb",
     "DBHOST",
+    "DBNAME",
     "DBPASS",
     "DBPORT",
     "DBUSER",

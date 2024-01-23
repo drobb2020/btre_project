@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-David Robb - [@DavidRobb2](https://twitter.com/DavidRobb2) - drobb2011@gmail.com
+Email: [David Robb](drobb2011@gmail.com)
 
 Project Link: [https://github.com/drobb2020/btre_project](https://github.com/drobb2020/btre_project)
 
