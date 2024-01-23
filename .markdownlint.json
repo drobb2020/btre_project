@@ -1,0 +1,22 @@
+{
+  "MD013": false,
+  "MD041": false,
+  "no-inline-html": {
+    "allowed_elements": [
+      "img",
+      "h1",
+      "h2",
+      "h3",
+      "br",
+      "div",
+      "p",
+      "a",
+      "strong",
+      "details",
+      "summary",
+      "ol",
+      "ul",
+      "li"
+    ]
+  }
+}

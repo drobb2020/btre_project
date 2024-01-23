@@ -1,0 +1,10 @@
+# Example .env file for Django projects
+
+SECRET_KEY=<your secret key here>
+DEBUG=True
+ALLOWED_HOSTS=127.0.0.1, localhost # a comma separated lists of allowed hosts.
+DBNAME=<database name>
+DBUSER=<database user account>
+DBPASS=<database user password>
+DBHOST=<database hostname>
+DBPORT=5432  # Default Postgres port, change if needed.
