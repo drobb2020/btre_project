@@ -35,6 +35,7 @@
   - [Security updates](#security-updates)
   - [Security Updates 2022](#security-updates-2022)
   - [Security Updates 2024](#security-updates-2024)
+  - [Project Update 2024](#project-update-2024)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -76,6 +77,8 @@ I found this project on O'Rielly, and I really like Brad Traversey's teaching me
 - Pillow updated to 10.2.0
 
 These updates were necessary to address security vulnerabilities
+
+### Project Update 2024
 
 At some point in 2024 I will be updating all the code in this project to Django 4.2.x
 
