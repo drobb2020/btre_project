@@ -1,0 +1,5 @@
+autopep8==2.0.4
+black==23.12.1
+ruff==0.1.14
+pylint==3.0.3
+pytest==7.4.4

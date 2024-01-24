@@ -84,17 +84,23 @@ WSGI_APPLICATION = 'btre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': config('DBNAME'),
+#         'USER': config('DBUSER'),
+#         'PASSWORD': config('DBPASS'),
+#         'HOST': config('DBHOST'),
+#         'PORT': config('DBPORT'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DBNAME'),
-        'USER': config('DBUSER'),
-        'PASSWORD': config('DBPASS'),
-        'HOST': config('DBHOST'),
-        'PORT': config('DBPORT'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
