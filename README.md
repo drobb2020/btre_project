@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/drobb2020/readme-template">
-    <img src="./logo.png" alt="Logo" width="80" height="80">
+    <img src="./logo.png" alt="Logo" height="120">
   </a>
 
   <h3 align="center">BT Real Estate Website (Django)</h3>
@@ -34,7 +34,8 @@
   - [Built With](#built-with)
   - [Security updates](#security-updates)
   - [Security Updates 2022](#security-updates-2022)
-  - [Security Updates 2024](#security-updates-2024)
+  - [Security Updates 2024.1](#security-updates-20241)
+  - [Security Updates 2024.2](#security-updates-20242)
   - [Project Update 2024](#project-update-2024)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -60,6 +61,12 @@ I found this project on O'Rielly, and I really like Brad Traversey's teaching me
 - [Django 3.2.6](https://www.djangoproject.com/)
 - [PostgreSQL 13.4](https://postgresapp.com/)
 
+Now Running on
+
+- [Python 3.11.9](https://www.python.org/downloads/)
+- [Django 5.0.6](https://www.djangoproject.com/)
+- [PostgreSQL 13.4](https://postgresapp.com/)
+
 ### Security updates
 
 - Python has been updated to 3.9.10
@@ -72,15 +79,21 @@ I found this project on O'Rielly, and I really like Brad Traversey's teaching me
 - Django updated to 3.2.14
 - Pillow updated to 9.2.0
 
-### Security Updates 2024
+### Security Updates 2024.1
 
 - Pillow updated to 10.2.0
 
 These updates were necessary to address security vulnerabilities
 
+### Security Updates 2024.2
+
+- Django updated to 5.0.6
+- pillow updated to 10.3.0
+- sqlparse updated to 5.0.0
+
 ### Project Update 2024
 
-At some point in 2024 I will be updating all the code in this project to Django 4.2.x
+At some point in 2024 I will be updating all the code in this project to Django 5.0.x
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -96,6 +109,7 @@ You will require the following software installed locally on your system or on a
   1. Download the latest version of Python from python.org, or use brew to install Python. Follow the well published instructions on successfully installing the latest version of Python.
 
 - PostgreSQL
+
   1. For mac go to the postgres.app website and download the appropriate version of postgres. At the time of writing this was version 13.4. For the M1 make sure you download a universal version.
   2. Use the Postgres.app to create a database server. You will see an initialize button, click that.
   3. Install pgAdmin4 to administer the database.
@@ -140,7 +154,7 @@ This is a learning project for me to get comfortable with Django. While the logi
 
 ## Updated Project 2022
 
-The original project exposed a lot of confidential information. I have now added python-decouple and django-extensions to the project to create a new secret key and decouple to place all the confidential settings in a .env file. See the env_example file to see which settings are hidden now.
+The original project exposed a lot of confidential information. I have now added python-decouple and django-extensions to the project to create a new secret key and decouple to place all the confidential settings in a .env file. See the env_example file to see which settings are now hidden.
 
 Make sure you add your .env file to the .gitignore file if it is not already there.
 

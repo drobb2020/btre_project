@@ -1,13 +1,13 @@
 attrs==23.2.0
-Django==4.2.9
+Django==5.0.6
 django-extensions==3.2.3
 lazy-object-proxy==1.10.0
-pillow==10.2.0
-pyparsing==3.1.1
+pillow==10.3.0
+pyparsing==3.1.2
 psycopg2==2.9.9
 psycopg2-binary==2.9.9
 py==1.11.0
 python-decouple==3.8
-pytz==2023.3.post1
+pytz==2024.1
 toml==0.10.2
 wrapt==1.16.0
