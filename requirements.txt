@@ -36,3 +36,4 @@ toml==0.10.2
     # via -r requirements.in
 wrapt==1.16.0
     # via -r requirements.in
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
