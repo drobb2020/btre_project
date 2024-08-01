@@ -8,7 +8,7 @@ asgiref==3.8.1
     # via django
 attrs==23.2.0
     # via -r requirements.in
-django==5.0.6
+django==5.0.7
     # via
     #   -r requirements.in
     #   django-extensions
@@ -36,3 +36,4 @@ toml==0.10.2
     # via -r requirements.in
 wrapt==1.16.0
     # via -r requirements.in
+zipp==3.19.1
